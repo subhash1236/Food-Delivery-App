@@ -1,0 +1,53 @@
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.add form {
+  font-size: 20px;
+}
+
+.add-img-upload img {
+  width: 120px;
+}
+
+.add-product-name,
+.add-product-description {
+  width: max(40%, 280px);
+}
+
+.add-product-name input,
+.add-product-description textarea {
+  padding: 10px;
+
+  margin-bottom: 1.5rem;
+
+  width: 100%; /* Ensures inputs take full width of parent */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+  padding-top: 1rem;
+}
+
+.add-category-price select,
+.add-category-price input {
+  max-width: 120px;
+  padding: 10px;
+}
+
+.add-btn {
+  width: 7rem;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px; /* Adds some space between the last input and the button */
+}
